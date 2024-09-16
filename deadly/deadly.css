@@ -19,32 +19,9 @@ body {
     max-width: 600px;
     text-align: justify;
     line-height: 1.6;
-    
+    height: 1199px;
 }
 
 p {
     margin-bottom: 20px;
 }
-
-
-/* Button container and button styles */
-.button-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-.choice-btn {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    color: white;
-}
-
-.choice-btn.accept {
-    background-color: #4CAF50;
-}
-
