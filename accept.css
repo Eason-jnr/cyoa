@@ -1,0 +1,95 @@
+/* accept.css */
+body {
+    font-family: 'Georgia', serif;
+    background-color: gray;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.story-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    text-align: justify;
+    line-height: 1.6;
+    height: 1199px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* New styles for choice previews */
+.choice-previews {
+    background-color: #e8f0fe;
+    border-left: 4px solid #2196F3;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.choice-previews p {
+    margin-bottom: 15px;
+}
+
+.choice-previews strong {
+    color: #2196F3;
+}
+
+/* Button container and button styles */
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.choice-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+.choice-btn.easy {
+    background-color: #4CAF50;
+}
+
+.choice-btn.real {
+    background-color: #2196F3;
+}
+
+.choice-btn.deadly {
+    background-color: #f44336;
+}
+
+.choice-btn.sdg {
+    background-color: #9C27B0;
+}
+
+/* Button hover effects */
+.choice-btn:hover {
+    opacity: 0.9;
+}
+
+/* Styling the buttons for mobile and smaller screens */
+@media (max-width: 600px) {
+    .button-container {
+        flex-direction: column;
+    }
+
+    .choice-btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
