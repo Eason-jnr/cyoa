@@ -19,9 +19,16 @@ body {
     max-width: 600px;
     text-align: justify;
     line-height: 1.6;
-    height: 1199px;
+    height: 1250px;
 }
 
 p {
     margin-bottom: 20px;
+}
+
+.story-container .unflinching img{
+    height: auto;
+    display: block;
+    max-width: 10%;
+    margin: 0 auto;
 }
