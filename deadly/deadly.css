@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     
+    
 }
 
 .story-container {
@@ -19,7 +20,7 @@ body {
     max-width: 600px;
     text-align: justify;
     line-height: 1.6;
-    height: 1250px;
+    height: auto;
 }
 
 p {
