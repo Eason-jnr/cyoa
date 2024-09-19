@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--fight.html-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fight</title>
+    <link rel="stylesheet" href="fight.css">
+</head>
+<body>
+    <div class="story-container">
+        <p>You make your decision, Running is for cowards. You may not remember who you are but, you won’t just let this guy walk all over you.</p>
+    
+        <p>Upon making your decision the world turns gray and freezes. Not even you are able to move, you feel a burning sensation in your chest several embers eager to settle within your very core, yet only one can settle at a time.</p>
+    
+        <div class="container">
+            <button id="spinButton">Roll</button>
+        </div>
+    
+        <!-- Hidden Buff/Debuff Sections -->
+        <div id="buff-enrage" class="hidden">You feel a surge of power, your muscles bulging with the uncontrollable <strong>Enrage</strong>. Your next attack will be devastating.</div>
+        <div id="buff-regen" class="hidden">A healing aura surrounds you as your body begins to <strong>Regenerate</strong>. Your wounds slowly mend themselves.</div>
+        <div id="buff-unflinching" class="hidden">Your resolve hardens, you become <strong>Unflinching</strong>. Nothing can break your focus.</div>
+        <div id="buff-invincible" class="hidden">You become <strong>Invincible</strong>, shrugging off attacks as though they were nothing.</div>
+        <div id="buff-bleed" class="hidden">Your blade slices through, causing a <strong>Bleed</strong> that slowly saps your opponent's strength.</div>
+        <div id="buff-curse" class="hidden">A dark energy envelops your enemy. You've placed a powerful <strong>Curse</strong> on them, weakening their resolve.</div>
+        <div id="buff-doom" class="hidden">An eerie silence falls as you cast a shadow of <strong>Doom</strong> upon your foe. They are marked for certain death.</div>
+        <div id="buff-hex" class="hidden">You summon a dark spell, casting a <strong>Hex</strong> on your opponent, distorting their senses.</div>
+    
+        <!-- Modal for result -->
+        <div id="resultModal" class="modal">
+            <div class="modal-content">
+                <p id="resultText"></p>
+                <button id="continueButton">Continue</button>
+            </div>
+        </div>
+
+        <script src="fight.js"></script>
+    </div>
+</body>
+</html>

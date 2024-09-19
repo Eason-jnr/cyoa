@@ -33,3 +33,31 @@ p {
     max-width: 10%;
     margin: 0 auto;
 }
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.choice-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+.choice-btn.run {
+    background-color: #4CAF50;
+}
+
+.choice-btn.lure {
+    background-color: #2196F3;
+}
+
+.choice-btn.fight {
+    background-color: #f44336;
+}
