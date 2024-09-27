@@ -5,13 +5,7 @@ document.getElementById('spinButton').addEventListener('click', function() {
     // List of buffs and debuffs with corresponding story sections
     const outcomes = {
         'Enrage': 'buff-enrage',
-        'Regen': 'buff-regen',
-        'Unflinching': 'buff-unflinching',
-        'Invincible': 'buff-invincible',
-        'Bleed': 'buff-bleed',
-        'Curse': 'buff-curse',
-        'Doom': 'buff-doom',
-        'Hex': 'buff-hex'
+       
     };
 
     // Randomly pick a buff or debuff

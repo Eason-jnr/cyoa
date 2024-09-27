@@ -1,0 +1,7 @@
+ 'Regen': 'buff-regen',
+        'Unflinching': 'buff-unflinching',
+        'Invincible': 'buff-invincible',
+        'Bleed': 'buff-bleed',
+        'Curse': 'buff-curse',
+        'Doom': 'buff-doom',
+        'Hex': 'buff-hex'
