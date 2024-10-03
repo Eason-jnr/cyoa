@@ -5,6 +5,7 @@ document.getElementById('spinButton').addEventListener('click', function() {
     // List of buffs and debuffs with corresponding story sections
     const outcomes = {
         'Enrage': 'buff-enrage',
+        'Regen': 'buff-regen',
        
     };
 
