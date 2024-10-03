@@ -23,6 +23,20 @@ body {
     
 }
 
+.story-container .regen img{
+    height: auto;
+    display: block;
+    max-width: 10%;
+    margin: 0 auto;
+}
+
+.story-container .doom img{
+    height: auto;
+    display: block;
+    max-width: 10%;
+    margin: 0 auto;
+}
+
 p{
     margin-bottom: 20px;}
 
